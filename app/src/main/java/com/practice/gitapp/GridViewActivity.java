@@ -34,7 +34,7 @@ public class GridViewActivity extends ActionBarActivity {
 
     private GridViewAdapter mGridAdapter;
     private ArrayList<GridItem> mGridData;
-    private String FEED_URL = "http://javatechig.com/?json=get_recent_posts&count=45";
+    private String FEED_URL = "https://api.github.com/search/repositories?q=lagos+language:java&sort=stars&order=desc";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
